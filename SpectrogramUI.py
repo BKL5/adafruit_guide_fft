@@ -262,7 +262,7 @@ class MainWindow(QtGui.QMainWindow):
 		dialog = QtGui.QDialog(self)
 		dialog.setModal(True)
 		sampleRate = QtGui.QSpinBox()
-		sampleRate.setRange(1,9000)
+		sampleRate.setRange(1,40000)
 		sampleRate.setValue(self.openDevice.get_samplerate())
 		buttons = QtGui.QDialogButtonBox(QtGui.QDialogButtonBox.Ok | QtGui.QDialogButtonBox.Cancel)
 		buttons.accepted.connect(dialog.accept)

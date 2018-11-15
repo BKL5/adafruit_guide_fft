@@ -2,6 +2,19 @@
 
 Code in support of the ['FFT: Fun with Fourier Transforms' guide](http://learn.adafruit.com/fft-fun-with-fourier-transforms) on the [Adafruit learning system](http://learn.adafruit.com/).
 
+martin-ger:
+- Added sampling code for the ESP8266 and the ESP32
+- Changed serial baudrate to 115200
+- Max. sampling rate now 40000Hz (ESP8266 hardly manages 10000Hz, ESP32 is better)
+
+Requires Python 2.7 with:
+- cmake
+- matplotlib, a library for plotting data.
+- NumPy, a library for numeric computing.
+- PySide, a python binding to the Qt user interface library.
+- pySerial, a library for serial code IO.
+
+
 ## License
 
 The MIT License (MIT)

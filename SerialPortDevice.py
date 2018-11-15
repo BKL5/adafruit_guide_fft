@@ -11,7 +11,7 @@ import SpectrogramDevice
 
 
 TIMEOUT_SECONDS = 5
-PORT_BAUD_RATE = 38400
+PORT_BAUD_RATE = 115200
 
 
 class SerialPortDevice(SpectrogramDevice.SpectrogramDevice):
