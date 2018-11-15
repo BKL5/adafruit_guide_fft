@@ -3,7 +3,7 @@
 Code in support of the ['FFT: Fun with Fourier Transforms' guide](http://learn.adafruit.com/fft-fun-with-fourier-transforms) on the [Adafruit learning system](http://learn.adafruit.com/).
 
 martin-ger:
-- Added sampling code for the ESP8266 and the ESP32
+- Added sampling code for the ESP8266 and the ESP32. Connect e.g. a MAX4466 to the A0 ADC.
 - Changed serial baudrate to 115200
 - Max. sampling rate now 40000Hz (ESP8266 hardly manages 10000Hz, ESP32 is better)
 
